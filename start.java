@@ -1,5 +1,5 @@
 //java basic structure with method overloading, conditional statements, loops, and arrays
-public class start{
+public class Start{
     //method 
     public void greet(){
         greet(null, false);
@@ -33,10 +33,9 @@ public class start{
 
     public static void main(String[] args){
          System.out.println("Hello, World!");
-         start obj = new start();
+         Start obj = new Start();
          obj.greet();
          obj.greet("Rakib", true);
     }
 }
-
 
