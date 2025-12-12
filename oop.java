@@ -1,3 +1,4 @@
+import bank.*;
 class Pen {
     String color;
     String type;
@@ -32,7 +33,7 @@ class Student{
     
 }
 
-class Polym{//Polymorphism
+class Polym{//Polymorphism // function overloading // same name different parameters // different signature // compile time polymorphism // static polymorphism
     public void test(){
             System.out.println("Im for test");
     }
@@ -75,6 +76,13 @@ public class Oop {
 
         polym.test("No name");
         polym.test(25);
+
+        //  
+
+        Account account1 = new Account();
+        account1.name = "Rakib";
+        System.out.println("Account name: " + account1.name);
+
 
 
     }
